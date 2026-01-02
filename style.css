@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ffffff,#c5e5f8, #e438e4da);
+}
+
+header {
+    background: linear-gradient(to bottom, #ffffff,#c2e8ff, #83ebfd);
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background: #014a85;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(to bottom, #887ec2, #f181d9c9);
+    color: white;
+    text-align: center;
+    padding: 40px 5px;
+}
+
+.hero button {
+    padding: 12px 25px;
+    border: none;
+    background: #0011ff;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    background: rgb(181, 201, 245);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.social a {
+    color: white;
+    font-size: 22px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: #00aced;
+}
+
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
